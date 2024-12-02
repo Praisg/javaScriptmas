@@ -1,3 +1,6 @@
+![Screenshot (145)](https://github.com/user-attachments/assets/9ef3e526-d62b-4d0a-b94a-3a7257f4b46b)
+
+
 /*
 Grandpa has a Christmas wish list to keep track of all the gifts he wants to ask for. But there’s a problem: if he forgets he’s already added something, the list gets clogged up with duplicates. This happened last year, and he ended up with 8 talking picture frames on Christmas Day!
 
