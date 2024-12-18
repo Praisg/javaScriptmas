@@ -1,19 +1,29 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+![Screenshot (146)](https://github.com/user-attachments/assets/7fa53b1c-d033-4bca-bc65-a58ce5e87732)
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+/*
+Grandpa has a Christmas wish list to keep track of all the gifts he wants to ask for. But there’s a problem: if he forgets he’s already added something, the list gets clogged up with duplicates. This happened last year, and he ended up with 8 talking picture frames on Christmas Day!
 
-Happy Coding!
+Your task is to complete the `checkDuplicate()` function 👇 to ensure no duplicates are added to the list. But here’s the tricky part: Grandpa sometimes hits the spacebar more than once, making it harder to spot duplicates.
+
+For example, only one of these entries should be added to the list — the others should be flagged as duplicates:
+
+- "talking picture frames"
+- "talking  picture frames"
+- "talking picture    frames"
+- " talking picture frames "
+
+**Your tasks:**
+1. Ensure no duplicates can be added to the list.
+2. Account for extra spaces at the beginning/end and between words.
+ 
+**Stretch Goals:**
+1. Case Sensitivity: Handle cases where capitalization differs. For example:
+   - `"Cat Hammock"` should be flagged as a duplicate of `"cat hammock"`.
+   - Preserve Grandpa’s original capitalization (e.g., if `"Cat Hammock"` is added first, that should be added to the list). Do not simply convert all entries to lower case - Grandpa might well want to capitalize some words. 
+
+2. Additional Features: Add functionality to delete or edit items on the list.
+*/
+
+
