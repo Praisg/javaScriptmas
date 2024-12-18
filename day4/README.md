@@ -3,6 +3,7 @@ You are going to build an app that challenges players to identify a Christmas Mo
 
 For example, the emoji 🌇 💣 👮 ✈️ ️🔫  represent the film “Die Hard”, which everyone knows is the best Christmas movie of all time.
 
+![Screenshot (149)](https://github.com/user-attachments/assets/ba93f624-1c34-4a4b-8292-a4200c5886a5)
 In data.js you have an array of Christmas movies with emoji and text for aria labels.
 
 Your task is to build an app that meets these criteria:
@@ -27,4 +28,5 @@ Stretch Goals
 - Use AI to decide if an answer is correct or incorrect. For example if the correct answer is "The Polar Express" but the player inputs "Polar Express" a straight comparison of the two strings will find that the player's answer was incorrect. AI could assess if there is sufficient similarity between the strings to judge it as correct. 
 
 - Improve the UX by disabling the form/button when the game is over and during the pause between questions.
+- 
 */
