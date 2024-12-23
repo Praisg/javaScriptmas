@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav img {
+  height: 40px;
+}
+
+nav span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #777;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+header button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+header button:hover {
+  background-color: #0056b3;
+}
+
+header img {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.plan {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.plan h2 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.plan p {
+  margin: 10px 0;
+}
+
+.plan .price {
+  font-size: 24px;
+  color: #333;
+}
